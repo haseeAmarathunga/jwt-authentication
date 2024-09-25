@@ -23,7 +23,7 @@ public class UserController implements IUserController
 	{
 		if ( version == null || version.isEmpty() )
 		{
-			return ResponseEntity.badRequest().body( new ResponseDto<>( -1, "Version is Missing" ) );
+			return ResponseEntity.badRequest().body( new ResponseDto<>( -1, environment.getProperty( "version.missing" ) ) );
 		}
 		return ResponseEntity.ok( userService.loginUser( email, password, userRole ) );
 	}

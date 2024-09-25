@@ -5,7 +5,7 @@ import org.springframework.security.core.GrantedAuthority;
 import java.util.Objects;
 
 /**
- * Copyright (c) 2022. scicom.com.my - All Rights Reserved.
+ * Copyright (c) 2022. h5solutions - All Rights Reserved.
  * Created by amarathunga.h on 8/18/22, 10:53 AM.
  */
 public class CustomGrantedAuthority implements GrantedAuthority

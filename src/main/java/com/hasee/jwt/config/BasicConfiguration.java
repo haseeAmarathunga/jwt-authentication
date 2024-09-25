@@ -18,7 +18,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 /**
- * Copyright (c) 2021. scicom.com.my - All Rights Reserved.
+ * Copyright (c) 2021. h5Solutions - All Rights Reserved.
  * Created by amarathunga.h on 1/6/22, 9:47 AM.
  */
 @Configuration
